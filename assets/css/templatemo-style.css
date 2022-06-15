@@ -693,6 +693,11 @@ section.contact-me {
 #contact {
     text-align: center;
 }
+@media screen and (min-width: 536px) {
+    .snip1321 {
+        min-width: 513px;
+    }
+}
 
 @media screen and (max-width: 1680px) {
     .menu {
