@@ -177,7 +177,9 @@ html {
     background-color: #fff;
     color: chocolate;
 }
-
+.color-chocolate{
+    color: chocolate;
+}
 .menu .copyright-text {
     position: relative;
     margin-top: 60px;
@@ -316,7 +318,9 @@ html {
     letter-spacing: 0.5px;
 }
 
-
+.row {
+    justify-content: space-around !important;
+}
 /* Buttons */
 
 .white-button a {
@@ -473,7 +477,9 @@ button:hover {
     margin: 0 10px;
     border-radius: 5px;
 }
-
+.border-radius-5{
+    border-radius: 5px;
+}
 .itinerario > p {
     color: chocolate !important;
     line-height: 3em !important;
@@ -485,6 +491,21 @@ button:hover {
     font-style: inherit !important;
     line-height: 7em !important;
     font-weight: bold !important;
+}
+
+.view-meta{
+    display: block;
+    font-style: normal;
+    width: 115px;
+    height: 40px;
+    background: chocolate;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin: 20px auto;
 }
 section.my-work .section-heading {
     text-align: center;
@@ -568,6 +589,7 @@ figure.snip1321 {
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+  max-width: 513px !important;
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;

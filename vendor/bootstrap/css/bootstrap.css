@@ -576,6 +576,7 @@ pre code {
 }
 
 .row {
+  justify-content: space-around !important;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
